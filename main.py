@@ -23,5 +23,5 @@ for soup in soup.select('[data-review-id] > div:nth-child(2) > div:nth-child(2) 
 
         result.append(f"){string}\n")
 
-    with open(file='result.txt', encoding='utf-8', mode='w') as f:
-        f.writelines(result)
+with open(file='result.txt', encoding='utf-8', mode='w') as f:
+    f.writelines(result)
